@@ -8,20 +8,20 @@ This project implements a basic Pizza Ordering System with a focus on object-ori
 Classes:
 
 1. Pizza:
-  Attributes:
-    price, veg, extraCheesePrice, extraToppingsPrice, backPackPrice, basePizzaPrice, isExtraCheeseAdded, isExtraToppingsAdded, isOptedforTakeout.
-    A constructor initializes basic attributes based on whether the pizza is vegetarian.
+    Attributes:
+      price, veg, extraCheesePrice, extraToppingsPrice, backPackPrice, basePizzaPrice, isExtraCheeseAdded, isExtraToppingsAdded,         isOptedforTakeout.
+      A constructor initializes basic attributes based on whether the pizza is vegetarian.
   
-  Methods:
-    addExtraCheese(), addExtraToppings(), takeAway(), getBill().
-    getBill() generates a bill summary based on selected options and prints the total price.
+    Methods:
+      addExtraCheese(), addExtraToppings(), takeAway(), getBill().
+      getBill() generates a bill summary based on selected options and prints the total price.
 
 2. DeluxPizza (Subclass of Pizza):
-  The constructor invokes the superclass constructor and adds extra cheese and toppings.
-  Overrides addExtraCheese() and addExtraToppings() with empty implementations.
+    The constructor invokes the superclass constructor and adds extra cheese and toppings.
+    Overrides addExtraCheese() and addExtraToppings() with empty implementations.
 
 3. Usage:
-  The Main class demonstrates the creation of a DeluxPizza object, followed by printing the bill.
+    The Main class demonstrates the creation of a DeluxPizza object, followed by printing the bill.
 
 Features:
   Customizable pizza options: extra cheese, extra toppings, takeout.
