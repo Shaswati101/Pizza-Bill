@@ -24,8 +24,11 @@ Classes:
     The Main class demonstrates the creation of a DeluxPizza object, followed by printing the bill.
 
 Features:
-  Customizable pizza options: extra cheese, extra toppings, takeout.
-  Demonstrates inheritance and method overriding.
+    Customizable pizza options:
+        Extra cheese
+        Extra toppings
+        Takeout
+    Demonstrates inheritance and method overriding.
 
 Instructions:
   Instantiate a Pizza or DeluxPizza object with appropriate parameters.
